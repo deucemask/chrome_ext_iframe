@@ -3,10 +3,10 @@
   "description": "Removes iframes from current page",
   "version": "2.0",
   "permissions": [
-    "activeTab"
+    "activeTab", "http://*/"
   ],
   "background": {
-    "scripts": ["rm.js"],
+    "scripts": ["main.js"],
     "persistent": false
   },
   "browser_action": {
